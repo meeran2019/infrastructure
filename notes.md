@@ -74,8 +74,44 @@ https://www.beyondtrust.com/blog/entry/how-to-manage-and-secure-service-accounts
 
 
 ---------------------------------------------------------------------------------------------------------
+DEVOPS INTEGRATION: 
+---------------------------------------------------------------------------------------------------------
 
+Jenkins 
 
+JFrog-Artifactory 
 
+Udeploy 
 
+Ansible 
+
+Terraform 
+
+GitHub
+
+---------------------------------------------------------------------------------------------------------
+
+IAC Code Steps: (GitHub -> Terraform )
+
+    1. Write the IAC code in local VS Code. 
+    2. Commit the code to GitHub.
+    3. In Terraform Enterprise, create workspace.
+    4. Under Settings, Version Control -> Select GitHub repository. 
+    5. Whenever code is commit, it trigger the terraform workspace. 
+
+Ansible Code Steps: (Ansible in Github -> Udeploy)
+
+    1. Write the Ansible code in local VS code. 
+    2. Commit the code to GitHub.
+    3. In Udeploy bootstrapping component process, 
+            a. Download the git using copy module.
+            b. Execute the ansible script using ${p:bootstrap_ansible_execution}
+    
+Udeploy -> Terraform: 
+
+    1. Write the terraform code and move to github. 
+    2. Write the ansible code to trigger terraform. 
+    3. Use the ansible code in Udeploy for deployment. 
+
+---------------------------------------------------------------------------------------------------------
 
