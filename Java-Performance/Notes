@@ -41,4 +41,7 @@ Garbage Collection:
         3. By anonymous object,
                 new Employee();  
 
+    Garbage collection can be requested by System.gc() method and finalize() method is called during garbage collection.
+
+    
         
