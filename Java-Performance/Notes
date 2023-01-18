@@ -11,12 +11,34 @@ Common Issues faced in JAVA:
 Heap Memory:
     It is all about objects.
     This is the place where store the object details. 
+    It is dynamic memory allocation of java objects. 
     xms (minimum) and xmx (maximum).
-    Garbage collector runs in backgroup to freeup heap memory.
-    
+    Garbage collector runs in backgroup to freeup heap memory that dont have any reference. 
+    Any object created in heap space has global access and can be reference from anywhere in application.
+    It can change by increasing/decreasing value. 
 
+Stack Memory:
+    Used for execution of thread.
+    It always referenced in LIFO order. 
+    Whenever method is invoked, new block is created in stack. 
+    It is statically allocated memory. 
+    It store primitive values and object reference. 
+    It cannot change the space value (increase/decrease)
 
+Garbage Collection: 
+    In JAVA, Garbage means unreferenced objects. 
+    It is process of reclaiming unused object memory. 
+    It is automatically done by garbage collector in JVM.
 
+    Objects can be unreferenced by,
+        1. By nulling a reference, 
+                Employee e=new Employee();
+                e=null;  
+        2. By assigning a reference to another, 
+                Employee e1=new Employee();  
+                Employee e2=new Employee(); 
+                e1=e2   (Moving e2 to e1 and e1 object memory is available for garbage collection)
+        3. By anonymous object,
+                new Employee();  
 
-
-
+        
