@@ -8,6 +8,15 @@ Common Issues faced in JAVA:
     Threads (Thread deadlock, resource contention).
     Database
 
+Heap Memory:
+    It is all about objects.
+    This is the place where store the object details. 
+    xms (minimum) and xmx (maximum).
+    Garbage collector runs in backgroup to freeup heap memory.
+    
+
+
+
 
 
 
