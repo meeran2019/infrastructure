@@ -1,0 +1,13 @@
+
+Common Issues faced in JAVA:
+
+    OOM (Out of Memory Exception) in JVM.
+    Memory Leaks
+    Excessive GC (Garbage collector).
+    Improper Caching.
+    Threads (Thread deadlock, resource contention).
+    Database
+
+
+
+

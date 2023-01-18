@@ -112,6 +112,6 @@ Udeploy -> Terraform:
     1. Write the terraform code and move to github. 
     2. Write the ansible code to trigger terraform. 
     3. Use the ansible code in Udeploy for deployment. 
-    4. 
+
 ---------------------------------------------------------------------------------------------------------
 
