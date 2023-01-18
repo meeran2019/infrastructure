@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------------
+JAVA PROCESS
+--------------------------------------------------------------------------------------------
+1. Java Program (.java) 
+2. Compile: .java -> .class  - Create java byte code.
+3. Jar: It is package java application (.jar)
+4. java -jar app.jar 
+
+JVM (Java Virtual Machine) is part of JRE (Java Runtime Environment) is used to execute the code. 
