@@ -1,0 +1,14 @@
+
+TCP dump is used for network sniffing. 
+
+tcpdump -i interface-name(eth01)        -> display traffic in/out of interface.
+tcpdump host ip-addr                    -> disply traffic in/out of ip address.
+tcpdump src source-ip-addr              -> filter based on source ip address.
+tcpdump dst dest-ip-address             -> filter based on destination ip address.
+tcpdump net 10.11.12.13/24              -> display traffic in/out of subnet. 
+tcpdump port 3389                       -> display traffic for specific port. 
+
+tcpdump some-filters -w file-name       -> write output to file. 
+-D  -> Show list of interfaces.
+-l  -> line readable output. 
+
